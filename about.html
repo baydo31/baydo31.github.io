@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me - Diane Lapindo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #fff;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header {
+      padding: 40px 20px;
+      background: rgba(0,0,0,0.6);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #ffd6eb;
+      text-shadow: 0 0 15px #ff69b4;
+    }
+
+    .about-text {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.1);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      font-size: 1.1em;
+      line-height: 1.8;
+      color: #ffd6eb;
+      text-align: left;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 15px;
+      border: 4px solid #ff69b4;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: rgba(0,0,0,0.85);
+      padding: 20px;
+      font-size: 1em;
+      color: #ffd6eb;
+    }
+
+    footer a {
+      color: #ff69b4;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+  </header>
+
+  <section class="about-text">
+    <p>My name is <strong>Diane Lapindo</strong>, born on May 31, 2007. I am currently a criminology student at the University of the Cordilleras, where I am working toward achieving my academic and personal goals.</p>
+    <p>I come from Pula Poblacion, Tuba, Benguet, a place that has shaped who I am today and continues to inspire me to strive for a better future. Growing up in a close-knit community has taught me the values of hard work, perseverance, and staying grounded.</p>
+    <p>As a criminology student, I am passionate about understanding the law, maintaining peace and order, and contributing to the safety of society. I am dedicated to learning and improving myself every day, both academically and personally. I aim to balance my studies with personal growth as I prepare for the responsibilities and challenges of my chosen profession.</p>
+    <p>My dream is to become a member of the Bureau of Fire Protection (BFP), where I can serve the community, help save lives, and protect people and properties from fire and other emergencies. I am determined to work hard and stay committed to reaching this goal.</p>
+    <p>I believe that education is a powerful tool that will help me achieve my dreams and make a positive impact in my community, especially in promoting safety, service, and public welfare.</p>
+  </section>
+
+  <section class="gallery">
+    <!-- Replace these with your actual 6 pictures -->
+    <img src="ako1.jpg" alt="Diane Picture 1">
+    <img src="ako2.jpg" alt="Diane Picture 2">
+    <img src="ako7.jpg" alt="Diane Picture 3">
+    <img src="ako4.jpg" alt="Diane Picture 4">
+    <img src="ako5.jpg" alt="Diane Picture 5">
+    <img src="ako6.jpg" alt="Diane Picture 6">
+  </section>
+
+  <footer>
+    <p><a href="index.html">⬅ Back to Home</a></p>
+  </footer>
+</body>
+</html>
